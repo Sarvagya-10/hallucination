@@ -1,4 +1,4 @@
-# LLM Experiment: Multiplicative Functional Equation
+# LLM Experiment: Comparing outputs of different instances of several models to check for determinism and hallucination
 url: https://aistudio.google.com/
 
 Setup parameters (kept same for both instances of all models):
