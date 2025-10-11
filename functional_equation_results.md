@@ -17,7 +17,7 @@ Setup parameters (kept same for both instances of all models):
 
 Let $a$ and $b$ be positive integers ($\mathbb{Z}^+$) such that the expression $ab + 1$ divides $a^2 + b^2$.
 Prove that the value of the expression
-\frac{a^2 + b^2}{ab + 1}
+{a^2 + b^2}/{ab + 1}
 is a perfect square.
 
 ---
