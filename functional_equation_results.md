@@ -15,9 +15,12 @@ Setup parameters (kept same for both instances of all models):
 
 ## Question
 
-Let $Q$ be the set of rational numbers. A function $f: Q \to Q$ is called **multiplicative** if $f(xy) = f(x)f(y)$ for all $x, y \in Q$.
-Determine all multiplicative functions $f$ such that:
-$$f(x + 1) = f(x) + 1 \quad \text{for all } x \in Q.$$
+Let $a$ and $b$ be positive integers ($\mathbb{Z}^+$) such that the expression $ab + 1$ divides $a^2 + b^2$.
+Prove that the value of the expression
+$$
+\frac{a^2 + b^2}{ab + 1}
+$$
+is a perfect square.
 
 ---
 
