@@ -13,6 +13,8 @@ Setup parameters (kept same for both instances of all models):
 8. Structured output = disabled
 9. URL context = disabled
 
+## Date of Experimentation: 13th October 2025
+
 ## Question
 
 Let $a$ and $b$ be positive integers ($\mathbb{Z}^+$) such that the expression $ab + 1$ divides $a^2 + b^2$.
