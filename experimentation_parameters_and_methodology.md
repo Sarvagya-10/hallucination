@@ -1,7 +1,12 @@
 # LLM Experiment: Comparing outputs of different instances of several models to check for determinism and hallucination
  Google AI Studio url: https://aistudio.google.com/
 
-Setup parameters (kept same for both instances of all models):
+## Major goals for the experiment:
+1. try to see if setting all parameters same and temparature 0 actually generates same answer, 
+2. to check if LLM hallucinates 
+3. to check if one instance of LLM can recognise hallucination done by another instance.
+
+## Setup parameters (kept same for both instances of all models):
 1. Temperature = 0
 2. Top P = 1
 3. Output length (number of output tokens) = 65536
@@ -31,4 +36,13 @@ is a perfect square.
 
 ---
 
-### Note: All the outputs along with code (during experiment the code was not used, prebuilt platform provided by Google AI Studio was used) for all 3 models given in separate files namely: 2.5_Flash_latest.md, 2.0_Flash.md, 2.5_Flash.md
+## Note: 
+All the outputs along with code (during experiment the code was not used, prebuilt platform provided by Google AI Studio was used) for all 3 models given in separate files namely: 2.5_Flash_latest.md, 2.0_Flash.md, 2.5_Flash.md
+While trying to replicate the experiment, exact same answers might not come as stated in the repository due to updates. However, the goal of the experiment is to
+1. try to see if setting all parameters same and temparature 0 actually generates same answer, 
+2. to check if LLM hallucinates 
+3. to check if one instance of LLM can recognise hallucination done by another instance.
+### What might be the differences:
+1. Model can correctly answer many IMO questions.
+2. Hallucination "can" be caught and corrected by other instances.
+3. Process of generation might be same, but we do not guarantee hallucination as a concept to be traced systematically. To replicate hallucination is the reason why one of the hardest problems whose solutions are not wide-spread is used.
